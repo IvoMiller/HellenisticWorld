@@ -1,0 +1,11 @@
+{
+  "Id": "448b686b-6942-49a2-822c-30819ae692b0",
+  "Name": "Covers changes to: Inscriptions. Script created at 2017-07-27 15:21.",
+  "ObjectIds": [
+    {
+      "Name": "Inscriptions",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    }
+  ]
+}
