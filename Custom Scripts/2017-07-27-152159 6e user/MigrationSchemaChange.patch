@@ -1,0 +1,14 @@
+diff --git a/Tables/dbo.Inscriptions.sql b/Tables/dbo.Inscriptions.sql
+index 9f39da8..feaaf17 100644
+--- a/Tables/dbo.Inscriptions.sql
++++ b/Tables/dbo.Inscriptions.sql
+@@ -1,8 +1,7 @@
+ CREATE TABLE [dbo].[Inscriptions]
+ (
+ [Inscription Id] [nchar] (10) COLLATE Latin1_General_CI_AS NOT NULL,
+-[City] [nchar] (50) COLLATE Latin1_General_CI_AS NULL,
+-[Script] [nchar] (10) COLLATE Latin1_General_CI_AS NULL
++[City] [nchar] (50) COLLATE Latin1_General_CI_AS NULL
+ ) ON [PRIMARY]
+ GO
+ ALTER TABLE [dbo].[Inscriptions] ADD CONSTRAINT [PK_Inscriptions] PRIMARY KEY CLUSTERED  ([Inscription Id]) ON [PRIMARY]
