@@ -9,6 +9,7 @@
   <IsAzure>False</IsAzure>
   <ScriptFolderType>Default</ScriptFolderType>
   <MaxDataFileSize>10485760</MaxDataFileSize>
+  <ProjectGuid>82c89474-da02-4746-a18e-cbf93534fe7f</ProjectGuid>
   <WriteToFileOptions>
     <Prefixes>
       <None>
@@ -57,4 +58,7 @@
     </Prefixes>
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
+  <DataFileSet>
+    <Count>0</Count>
+  </DataFileSet>
 </DatabaseInformation>
